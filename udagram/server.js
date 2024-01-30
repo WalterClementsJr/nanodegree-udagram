@@ -42,7 +42,7 @@ APP.get("/filteredimage", async (req, res) => {
       res.on("finish", () => deleteLocalFiles([result]));
     }).catch((err) => {
       console.info(err);
-      res.status(400).send(errorResponse("Bad request", err.message));
+      res.status(422).send(errorResponse("Unprocessable Content", err.message));
     })
   }
 })
