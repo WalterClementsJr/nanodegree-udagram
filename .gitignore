@@ -2,3 +2,7 @@
 node_modules/
 tmp/
 HELP.md
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
