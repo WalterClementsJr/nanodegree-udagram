@@ -1,3 +1,6 @@
+- EBS endpoint URL: http://udagram-dev2222.us-east-1.elasticbeanstalk.com/
+- EBS endpoint URL to test kitty image: http://udagram-dev2222.us-east-1.elasticbeanstalk.com/filteredimage?image_url=https://upload.wikimedia.org/wikipedia/commons/b/bd/Golden_tabby_and_white_kitten_n01.jpg
+
 # Full Stack Apps on AWS Project
 
 You have been hired as a software engineer to develop an application that will help the FBI find missing people.
@@ -21,8 +24,8 @@ Node 16
 ## project submission
 
 - [x] a Git repository
-- [-] a screenshot of the `elastic beanstalk` application dashboard after deployment
-- [-] a link to the endpoint URL for a running elastic beanstalk deployment either in the Project README or in the project submission notes.
+- [x] a screenshot of the `elastic beanstalk` application dashboard after deployment
+- [x] a link to the endpoint URL for a running elastic beanstalk deployment either in the Project README or in the project submission notes.
 
 ## Testing
 
